@@ -1,0 +1,19 @@
+<html>
+
+</html>
+
+<head>
+    <title>HTTP Live Streaming Example</title>
+    <link href="https://vjs.zencdn.net/7.11.4/video-js.css" rel="stylesheet" />
+</head>
+
+<body>
+    <video id="my_video" class="video-js vjs-default-skin" controls preload="auto" width="640" height="264">
+        <source src="http://localhost:8080/hls/example.m3u8" type="application/x-mpegURL">
+    </video>
+
+    <!-- This is the video player used to run HLS Stream-->
+    <script src="https://vjs.zencdn.net/7.11.4/video.js"></script>
+</body>
+
+</html>
